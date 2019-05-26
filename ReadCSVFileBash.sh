@@ -13,3 +13,5 @@ do
 done < "$input"
 
 #echo `cut -d, -f 1 $input | head -1`
+
+#awk -F"|" '{print "Name:"$1"\n""Edu:"$2"\n""Address:"$3"\n""Salary:"$4"\n====="}' sample > file.out
