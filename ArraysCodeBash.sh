@@ -22,3 +22,5 @@ done
 
 echo "The largest number is $biggest"
 echo "The smallest number is $smallest"
+
+echo "Ran successfully"
